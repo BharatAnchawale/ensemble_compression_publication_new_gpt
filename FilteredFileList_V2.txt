@@ -1,0 +1,2386 @@
+﻿
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\.git
+Created  : 2025-12-15 17:45:31
+Modified : 2025-12-15 17:54:26
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\.vs
+Created  : 2025-12-15 17:46:02
+Modified : 2025-12-15 22:34:35
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 21:15:17
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:33:48
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\.gitignore
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\download_new_corpus.py
+Created  : 2025-12-15 21:00:22
+Modified : 2025-12-15 21:00:50
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\FileListTree.ps1
+Created  : 2025-12-15 17:47:25
+Modified : 2025-12-15 17:52:51
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\requirements.txt
+Created  : 2025-12-15 18:11:08
+Modified : 2025-12-15 18:11:29
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 21:10:34
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\artificial
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:45
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\large
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\miscellaneous
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus
+Created  : 2025-12-15 21:01:06
+Modified : 2025-12-15 21:14:32
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\artificial\a.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\artificial\aaa.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\artificial\alphabet.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\artificial\random.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\bib
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\book1
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\book2
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\geo
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\news
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\obj1
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\obj2
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\paper1
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\paper2
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\paper3
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\paper4
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\paper5
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\paper6
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\pic
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\progc
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\progl
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\progp
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\calgary\trans
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\alice29.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\asyoulik.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\cp.html
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\fields.c
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\grammar.lsp
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\kennedy.xls
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\lcet10.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\plrabn12.txt
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\ptt5
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\sum
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\canterbury\xargs.1
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous\concatenated_types.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous\mixed_code_logs.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous\mixed_formats.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous\mixed_text_binary.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous\multimedia_sim.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_backup_simulation_1600kb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_binary_structured_1mb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_code_binary_1mb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_code_logs_config_700kb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_compressed_text_800kb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_config_logs_800kb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_database_simulation_900kb.dat
+Created  : 2025-12-15 17:45:44
+Modified : 2025-12-15 17:45:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_html_csv_xml_600kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_interleaved_1500kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_markdown_images_1300kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_media_simulation_1200kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_multimedia_2mb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_network_packets_950kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_spreadsheet_1100kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\heterogeneous_additional\mixed_text_binary_json_500kb.dat
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\large\bible.txt
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\large\E.coli
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\large\world192.txt
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\miscellaneous\pi.txt
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\.asf.yaml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\.checkstyle
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\.gitattributes
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\.gitignore
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-antunit-1.4.1.jar
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-bin.wxs
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-docs.desktop
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-docs.sh
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-logo.png
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-msi.wxs
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant-update.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant.properties.sample
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\antcall.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\antexternal.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\antlib.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\antlr.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\antstructure.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\anttaskslist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\anttool1.gif
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\antversion.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ant_logo_large.gif
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\apply.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\argumentprocessor.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\assertions.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\attrib.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\augment.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\available.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\basename.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\base_task_classes.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\bindtargets.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\bootstrap.bat
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\bootstrap.sh
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\BorlandEJBTasks.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\BorlandGenerateClient.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.bat
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.sh
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.xml.01-propertyaccess
+Created  : 2003-09-24 10:09:50
+Modified : 2003-09-24 10:09:50
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.xml.02-fileset
+Created  : 2003-09-24 14:15:58
+Modified : 2003-09-24 14:15:58
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.xml.03-paths
+Created  : 2003-09-25 11:21:10
+Modified : 2003-09-25 11:21:10
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\build.xml.04-lists
+Created  : 2003-09-25 11:36:12
+Modified : 2003-09-25 11:36:12
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\buildnumber.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cab.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ccm.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\changelog.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\changelog.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\check.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\checkstyle-config
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\checkstyle-frames-sortby-check.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\checkstyle-frames.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\checkstyle-text.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\checkstyle-xdoc.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\checksum.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\chgrp.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\chmod.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\chown.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\classfileset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\clearcase.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\clonevm.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\common.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\common2master.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\componentdef.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\concat.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\conceptstypeslist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\condition.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\conditions.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\CONTRIBUTING.md
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\CONTRIBUTORS
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\contributors.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\copy.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\copydir.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\copyfile.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\copyrightcheck.sh
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cover.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\coverage-frames.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\credits.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\custom-programming.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cvs.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cvspass.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cvstagdiff.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cvsversion.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\cycle_suppress_list.txt
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\defaultexcludes.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\delete.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\deltree.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\depend.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\dependset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\description.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\develop.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\developlist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\diagnostics.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\dirname.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\dirscanner.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\dirset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\dirtasks.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\docs.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ear.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\echo.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\echoproperties.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\echoxml.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ejb.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\exec.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\extension.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\extensionset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\fail.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\favicon.ico
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\feedback.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\fetch.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\filelist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\fileset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\filter.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\filterchain.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\filterset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\Find.java
+Created  : 2003-09-25 16:27:08
+Modified : 2003-09-25 16:27:08
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\Find.java.01-propertyaccess
+Created  : 2003-09-24 10:11:28
+Modified : 2003-09-24 10:11:28
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\Find.java.02-fileset
+Created  : 2003-09-24 14:22:52
+Modified : 2003-09-24 14:22:52
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\Find.java.03-paths
+Created  : 2003-09-25 10:55:26
+Modified : 2003-09-25 10:55:26
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\Find.java.04-lists
+Created  : 2003-09-25 11:35:08
+Modified : 2003-09-25 11:35:08
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\FindTest.java
+Created  : 2003-09-25 16:27:08
+Modified : 2003-09-25 16:27:08
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\FindTest.java.01-propertyaccess
+Created  : 2003-09-24 10:06:10
+Modified : 2003-09-24 10:06:10
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\FindTest.java.02-fileset
+Created  : 2003-09-24 13:58:44
+Modified : 2003-09-24 13:58:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\FindTest.java.03-paths
+Created  : 2003-09-25 10:36:32
+Modified : 2003-09-25 10:36:32
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\FindTest.java.04-lists
+Created  : 2003-09-25 11:28:04
+Modified : 2003-09-25 11:28:04
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\fixcrlf.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ftp.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\genkey.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\get-m2.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\get.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\gunzip.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\gutenberg_11_alice.txt
+Created  : 2025-12-15 21:01:26
+Modified : 2025-12-15 21:01:28
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\gutenberg_25525_pg-full.txt
+Created  : 2025-12-15 21:01:14
+Modified : 2025-12-15 21:01:17
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\gutenberg_84_frankenstein.txt
+Created  : 2025-12-15 21:01:31
+Modified : 2025-12-15 21:01:33
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\gzip.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\hamcrest-core-1.3.jar
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\hamcrest-library-1.3.jar
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\HelloWorld.java
+Created  : 2003-08-19 14:28:00
+Modified : 2003-08-19 14:28:00
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\HelloWorldTest.java
+Created  : 2003-08-19 16:06:04
+Modified : 2003-08-19 16:06:04
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\hostinfo.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ide.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ifunless.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\image-classdiagram.gif
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\image.graphml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\image.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\imageio.graphml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\imageio.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\import.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\include.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\index.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\input.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\inputhandler.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\INSTALL
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\install.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\installlist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\intro.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ivy.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ivysettings.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jar.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jarlib-available.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jarlib-display.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jarlib-manifest.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jarlib-resolve.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\java-latest-ea-ci.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\java.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\javac.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\javacc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\javacprops.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\javadoc-stylesheet.css
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\javadoc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\javah.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jdepend-frames.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jdepend.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jdepend.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jext-plugin.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jjdoc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jjtree.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jlink.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jmod.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\jspc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit-4.13.2.jar
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit-frames-saxon.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit-frames-xalan1.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit-frames.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit-noframes-saxon.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit-noframes.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junit.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junitlauncher.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\junitreport.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\KEYS
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\launch-build.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\length.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\libraries.properties
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\LICENSE
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\LICENSE.hamcrest.txt
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\LICENSE.junit.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\LICENSE.junit4.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\link.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\listeners.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\loadfile.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\loadproperties.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\loadresource.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\local.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\log.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\macrodef.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mail.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\makeurl.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\manifest.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\manifestclasspath.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mapper.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\maudit-frames.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mimemail.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mkdir.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mmetrics-frames.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\move.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\multirootfileset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mvnw
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\mvnw.cmd
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\namespace.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\native2ascii.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\netrexxc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\nice.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\NOTICE
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\overview.html
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\pack.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\parallel.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\patch.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\patch.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\pathconvert.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\patternset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\permissions.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\platform.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\pom.xml
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\presetdef.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\printFailingTests.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\projecthelper.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\properties.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\property.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\propertyfile.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\propertyhelper.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\propertyset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\proxy.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\pvcstask.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\README
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\README.md
+Created  : 2023-12-18 12:32:56
+Modified : 2023-12-18 12:32:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\recorder.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\redirector.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\regexp.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\release.sh
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\ReleaseInstructions
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\remacc.gif
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\rename.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\renameextensions.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\replace.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\replaceregexp.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\RequiredHeader.txt
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\resourcecount.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\resources.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\retry.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\rexec.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\rmic.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\rpm.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\running.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\runninglist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\schemavalidate.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\scp.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\script.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\scriptdef.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\SECURITY.md
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\selectors-program.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\selectors.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sequential.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\serverdeploy.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\setpermissions.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\setproxy.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\signit.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\signjar.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sleep.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\snapcraft.yaml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sonar-project.properties
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sonarqube.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sos.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sound.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\splash.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sql.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sshexec.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sshsession.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\STATUS
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\style.css
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\style.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\subant.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\symlink.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sync.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\sysclasspath.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tagdiff.xsl
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tar.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tarfileset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\targets.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\taskdef.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tasklist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tasksoverview.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\telnet.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tempfile.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\test-compatibility.sh
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\toc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\toolmenu.gif
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\touch.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\translate.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\truncate.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tstamp.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tutorial-HelloWorldWithAnt.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tutorial-tasks-filesets-properties.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tutorial-writing-tasks.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\tutorials.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\typedef.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\unpack.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\untar.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\unzip.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\upload.xml
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\uptodate.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\using.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\usinglist.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\verifyjar.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\vss.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\waitfor.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\war.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\WHAT-IS-THIS-P
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\WHATSNEW
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\whichresource.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\wljspc.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\xmlcatalog.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\xmlproperty.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\xmlvalidate.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\zip.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\data\academic_corpora\required_corpus\zipfileset.html
+Created  : 2023-08-16 04:45:54
+Modified : 2023-08-16 04:45:54
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 21:54:44
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:32:48
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:33:11
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\baseline_results_12_DEC_2025_12_00_00.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_all_57files_15_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_heterogeneous_13_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_heterogeneous_13_DEC_2025_comparison.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_improved_results_13_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_improved_results_13_DEC_2025_comparison.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_results_13_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\ensemble_results_13_DEC_2025_comparison.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\file_entropy_15_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\multi_objective_all_300plusfiles_complete_15_DEC_2025.csv
+Created  : 2025-12-15 21:54:44
+Modified : 2025-12-15 21:53:34
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\multi_objective_all_57files_complete_15_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\experiments\multi_objective_all_complete_15_DEC_2025.csv
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\figure1_compression_ratio_boxplots_300plus_files.png
+Created  : 2025-12-15 22:32:42
+Modified : 2025-12-15 22:18:03
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\figure1_compression_ratio_boxplots_57files.png
+Created  : 2025-12-15 22:32:41
+Modified : 2025-12-13 14:50:53
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\figure3_corpus_analysis_300plus_files.png
+Created  : 2025-12-15 22:32:42
+Modified : 2025-12-15 22:18:05
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\figure3_corpus_analysis_57files.png
+Created  : 2025-12-15 22:32:42
+Modified : 2025-12-13 14:50:54
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\figure4_preference_tradeoffs_300plus_files.png
+Created  : 2025-12-15 22:32:44
+Modified : 2025-12-15 22:18:07
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\figure4_preference_tradeoffs_57files.png
+Created  : 2025-12-15 22:32:43
+Modified : 2025-12-13 14:50:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\multi_objective_analysis_14_DEC_2025_300plus_files.png
+Created  : 2025-12-15 22:32:45
+Modified : 2025-12-15 22:19:04
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\multi_objective_analysis_14_DEC_2025_57files.png
+Created  : 2025-12-15 22:32:44
+Modified : 2025-12-13 14:51:43
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\pareto_3d_space_14_DEC_2025_300plus_files.png
+Created  : 2025-12-15 22:32:47
+Modified : 2025-12-15 22:19:07
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\pareto_3d_space_14_DEC_2025_57files.png
+Created  : 2025-12-15 22:32:46
+Modified : 2025-12-13 14:51:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\pareto_ratio_memory_14_DEC_2025_300plus_files.png
+Created  : 2025-12-15 22:32:47
+Modified : 2025-12-15 22:19:06
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\pareto_ratio_memory_14_DEC_2025_57files.png
+Created  : 2025-12-15 22:32:47
+Modified : 2025-12-13 14:51:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\pareto_ratio_speed_14_DEC_2025_300plus_files.png
+Created  : 2025-12-15 22:32:48
+Modified : 2025-12-15 22:19:05
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\figures\pareto_ratio_speed_14_DEC_2025_57files.png
+Created  : 2025-12-15 22:32:47
+Modified : 2025-12-13 14:51:44
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table1_overall_performance_300plus_files.csv
+Created  : 2025-12-15 22:33:10
+Modified : 2025-12-15 22:00:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table1_overall_performance_57files.csv
+Created  : 2025-12-15 22:33:10
+Modified : 2025-12-13 14:50:29
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table2_statistical_tests_300plus_files.csv
+Created  : 2025-12-15 22:33:11
+Modified : 2025-12-15 22:00:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table2_statistical_tests_57files.csv
+Created  : 2025-12-15 22:33:11
+Modified : 2025-12-13 14:50:29
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table3_anova_57files.csv
+Created  : 2025-12-15 22:33:11
+Modified : 2025-12-13 14:50:29
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table3_anova_summary_300plus_files.csv
+Created  : 2025-12-15 22:33:11
+Modified : 2025-12-15 22:00:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table4_corpus_specific_300plus_files.csv
+Created  : 2025-12-15 22:33:11
+Modified : 2025-12-15 22:00:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\results\tables\table4_corpus_specific_57files.csv
+Created  : 2025-12-15 22:33:11
+Modified : 2025-12-13 14:50:29
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\old_compare_homogeneous_vs_heterogeneous_13_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\old_create_heterogeneous_files_15_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\old_run_ensemble_full_13_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\old_run_ensemble_improved_full_13_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\old_test_baseline_12_DEC_2025_12_00_00.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\old_test_heterogeneous_13_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\run_ensemble_on_all_files_15_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\scripts_for_testing\run_multi_objective_full_14_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:33:48
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:34:08
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\visualization
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:34:35
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\__init__.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis\__pycache__
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 21:21:30
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis\multi_objective_14_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis\statistical_analysis_15_DEC_2025_fixed.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:34:08
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis\__init__.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis\__pycache__\multi_objective_14_DEC_2025.cpython-312.pyc
+Created  : 2025-12-15 21:21:30
+Modified : 2025-12-15 21:21:30
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\analysis\__pycache__\__init__.cpython-312.pyc
+Created  : 2025-12-15 21:21:30
+Modified : 2025-12-15 21:21:30
+
+Type     : Folder
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\__pycache__
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 21:21:33
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\baseline_12_DEC_2025_12_00_00.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\ensemble_13_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\old_ensemble_improved_13_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\__init__.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\__pycache__\baseline_12_DEC_2025_12_00_00.cpython-312.pyc
+Created  : 2025-12-15 21:21:33
+Modified : 2025-12-15 21:21:33
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\__pycache__\ensemble_13_DEC_2025.cpython-312.pyc
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\__pycache__\ensemble_improved_13_DEC_2025.cpython-312.pyc
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\compression\__pycache__\__init__.cpython-312.pyc
+Created  : 2025-12-15 21:21:33
+Modified : 2025-12-15 21:21:33
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\visualization\create_paper_figures_15_DEC_2025.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:34:24
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\visualization\visualize_multi_objective_14_DEC_2025_fixed.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 22:34:35
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new\src\visualization\__init__.py
+Created  : 2025-12-15 17:45:45
+Modified : 2025-12-15 17:45:45

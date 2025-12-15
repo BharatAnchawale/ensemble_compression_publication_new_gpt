@@ -1,0 +1,4 @@
+Metric,F-statistic,p-value,η²,Significant
+ratio,1.247,2.9116e-01,0.018,
+speed,18.181,2.7327e-13,0.206,✓
+memory,0.962,4.2889e-01,0.014,

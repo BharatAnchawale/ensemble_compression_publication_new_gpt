@@ -1,0 +1,47 @@
+﻿This document outlines the detailed 36-hour plan to elevate the statistical analysis module and corresponding manuscript to meet high publication standards for a respected data compression journal.
+
+📝 Publication Readiness Plan: Statistical Analysis & Manuscript (36 Hours)
+Project: Comprehensive Statistical Analysis Module - FIXED Target: Publication in a respected data compression journal. Duration: 36 Hours (Overtime included) Status: CRITICAL: Addressing KeyError and Statistical Rigor Gaps
+
+Phase 1: Statistical Rigor & Code Refinement (12 Hours)
+The immediate priority is implementing crucial statistical checks (assumptions and post-hoc tests) and fixing the current execution error.
+
+Hour	Task	Focus	Details / Implementation	Output/Deliverable
+0 - 2	A. Fix KeyError & Debug	Fix the KeyError: 'p_value' in comprehensive_analysis. Investigate data types and variances for 'speed_mbps' and 'memory_mb' that may cause f\_oneway to fail or return malformed results. Implement robust error handling (e.g., try...except or checking returned object type).	Ensure self.anova_test(metric) returns the expected dictionary for all metrics.	Working comprehensive_analysis loop for all metrics.
+2 - 4	B. Implement ANOVA Assumption Checks	Create a new helper method, check_anova_assumptions(self, metric). Implement Levene's Test (scipy.stats.levene) for Homogeneity of Variances. Report the p-value.	Output: Assumption check results for 'ratio', 'speed', 'memory'.	
+4 - 6	C. Implement Non-Parametric Alternatives	Create kruskal_wallis_test(self, metric) using scipy.stats.kruskal. Integrate this into comprehensive_analysis to run in parallel with ANOVA, providing a fallback if the normality/homogeneity assumptions are violated.	Robust non-parametric analysis for all metrics.	
+6 - 8	D. Implement Tukey's HSD (Post-Hoc)	Implement Tukey's HSD (Honestly Significant Difference) using statsmodels.stats.multicomp.pairwise_tukeyhsd. This is the standard post-hoc for ANOVA. Create tukey_hsd_posthoc(self, metric) and run it only if the main ANOVA or Kruskal-Wallis test is significant.	New function: tukey_hsd_posthoc(self, metric).	
+8 - 10	E. P-Value Correction Enhancement	Modify bonferroni_correction to also calculate and return adjusted p-values (i.e., p⋅M). Create a new function, correct_p_values(self, p_values, method='fdr'), to implement the more powerful False Discovery Rate (FDR) correction (e.g., Benjamini-Hochberg) for a secondary check.	Array of Bonferroni-adjusted and FDR-adjusted p-values.	
+10 - 12	F. Code Cleanup & Documentation	Update all docstrings (anova_test, paired_t_tests, and new functions) to explicitly state assumptions and usage context. Final script status check and commit.	Deliverable: StatisticalAnalyzer class fully upgraded and documented.	
+
+Export to Sheets
+
+Phase 2: Data Interpretation & Publication Tables (12 Hours)
+This phase focuses on interpreting the new rigorous statistical outputs and preparing clear, compliant tables for the manuscript.
+
+Hour	Task	Focus	Details / Implementation	Output/Deliverable
+12 - 14	G. Finalize Table 2 (Pairwise Comparisons)	Update create_publication_tables: Ensure Table 2 reports Mean 1, Mean 2, Cohen's d, and the Tukey's HSD difference (or adjusted p-value) for the Compression Ratio.	Table 2: Pairwise t-test results with adjusted p-values and Cohen's d.	
+14 - 16	H. Finalize Table 3 (ANOVA Summary)	Update create_publication_tables: Add Levene's p-value (Assumption Check) and the Kruskal-Wallis H-statistic/p-value to Table 3. This provides a complete statistical summary for each metric.	Table 3: ANOVA/Non-Parametric Summary with assumption checks.	
+16 - 18	I. Statistical Power Analysis Extension	Add a new method for ANOVA Power Analysis using statsmodels.stats.power.f_test_power. Use the calculated η 
+2
+  (effect size) and degrees of freedom to report the power of the study's overall design.	Output: Power calculation for the overall F-test across all metrics.	
+18 - 20	J. Results Text Drafting (Compression Ratio)	Write the first draft of the Compression Ratio results. Structure: State Assumption Check → Report ANOVA/Kruskal-Wallis → Report Tukey's HSD pairs → Summarize with Effect Sizes.	Draft Section 3.1 (Compression Ratio) with embedded results.	
+20 - 22	K. Results Text Drafting (Speed & Memory)	Draft the results text for Speed and Memory, following the same rigorous sequence as Compression Ratio. Ensure the interpretation of effect size is consistent.	Draft Sections 3.2 & 3.3 (Speed and Memory).	
+22 - 24	L. Figure Generation Plan	Finalize design for 3 essential figures: Figure 1: Box/Violin Plots for all metrics. Figure 2: Pareto-front trade-off plot (Ratio vs. Speed). Figure 3: Corpus-specific performance heat map.	Deliverable: Tables 1-4 finalized and formatted, Figure plan established.	
+
+Export to Sheets
+
+Phase 3: Manuscript Integration & Journal Compliance (12 Hours)
+The final phase focuses on editorial polish, methodology justification, and ensuring the manuscript structure meets journal submission criteria.
+
+Hour	Task	Focus	Details / Implementation	Output/Deliverable
+24 - 26	M. Introduction & Related Work Review	Verify that the Introduction clearly establishes the research gap and that the Related Work connects existing compression research to your specific evaluation methodology.	Updated Section 1 (Introduction) and Section 2 (Related Work).	
+26 - 28	N. Methodology Section Refinement	CRITICAL: Explicitly justify the statistical methods used (e.g., "We used a paired t-test due to the within-subject design... One-Way ANOVA followed by Tukey's HSD post-hoc was used to control family-wise error rate...").	Polished Section on Methodology, justifying all statistical choices.	
+28 - 30	O. Discussion & Conclusion Alignment	Ensure the Discussion section ties the statistical findings (especially the largest Effect Sizes) directly back to the practical and theoretical implications of the algorithms.	Discussion section connecting stats → claim → impact.	
+30 - 32	P. Abstract & Title Polish	Draft a final, impactful Abstract and Title that features the most significant, statistically supported claim (e.g., "Outperforming the baseline by 15%, confirmed by Tukey's HSD (p<0.001) with a large effect size...").	Finalized Abstract and Title.	
+32 - 34	Q. Journal Compliance Check	Select target journal(s) (e.g., IEEE Transactions on Communications) and systematically check guidelines for formatting, referencing style, figure resolution, and manuscript length.	Checklist of 5-10 journal-specific requirements.	
+34 - 36	R. Final Proofread and Package	Comprehensive proofread for clarity and consistency (e.g., using "Compression Ratio" vs. "Ratio"). Ensure all data, code (for reproducibility), tables, and figures are correctly labeled and packaged for submission.	Deliverable: Complete, publication-ready manuscript package.	
+
+Export to Sheets
+
+Note: This plan requires maximum focus. Any deviation or major roadblock encountered in Phase 1 (e.g., complex data non-normality) will require immediate reassessment and potential shift to non-parametric testing for the remaining time.

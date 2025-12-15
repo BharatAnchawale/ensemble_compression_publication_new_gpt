@@ -1,0 +1,11 @@
+Algorithm 1,Algorithm 2,Mean 1,Mean 2,t-statistic,p-value,Cohen's d,Effect Size,Sig.
+brotli,bzip2,266.819,75.778,1.684,0.098,0.223,small,
+brotli,gzip,266.819,28.143,1.676,0.099,0.222,small,
+brotli,lzma,266.819,60.83,1.585,0.118,0.21,small,
+brotli,zstd,266.819,178.742,1.616,0.112,0.214,small,
+bzip2,gzip,75.778,28.143,1.639,0.107,0.217,small,
+bzip2,lzma,75.778,60.83,0.525,0.602,0.07,negligible,
+bzip2,zstd,75.778,178.742,-1.729,0.089,-0.229,small,
+gzip,lzma,28.143,60.83,-1.201,0.235,-0.159,negligible,
+gzip,zstd,28.143,178.742,-1.704,0.094,-0.226,small,
+lzma,zstd,60.83,178.742,-1.505,0.138,-0.199,negligible,

@@ -1,0 +1,11 @@
+Algo 1,Algo 2,t,p (raw),p (Bonf. adj),p (FDR adj),Cohen's d,Effect Size,Sig.
+brotli,bzip2,1.707,0.0887,0.887,0.1554,0.086,negligible,
+brotli,gzip,1.688,0.0922,0.9222,0.1554,0.085,negligible,
+brotli,lzma,1.607,0.1088,1.0,0.1554,0.081,negligible,
+brotli,zstd,1.679,0.094,0.9396,0.1554,0.085,negligible,
+bzip2,gzip,1.608,0.1086,1.0,0.1554,0.081,negligible,
+bzip2,lzma,0.527,0.5986,1.0,0.5986,0.027,negligible,
+bzip2,zstd,-1.716,0.087,0.8704,0.1554,-0.087,negligible,
+gzip,lzma,-1.187,0.2358,1.0,0.262,-0.06,negligible,
+gzip,zstd,-1.685,0.0927,0.9273,0.1554,-0.085,negligible,
+lzma,zstd,-1.499,0.1346,1.0,0.1683,-0.076,negligible,
