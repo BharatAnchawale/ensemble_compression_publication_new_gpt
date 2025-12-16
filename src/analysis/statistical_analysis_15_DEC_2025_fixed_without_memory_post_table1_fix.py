@@ -566,55 +566,97 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     print("\n" + "="*80)
     print("CREATING PUBLICATION TABLES (Phase 2)")
     print("="*80)
+
+    # TABLE 1: Overall Performance Summary - CORRECTED VERSION
+    print("\n[TABLE] Table 1: Overall Performance Summary")
+
+    desc_stats = stats_results['descriptive'].reset_index()
+
+    # Create table with median and IQR
+    table1_rows = []
+
+    for algo in ['brotli', 'bzip2', 'gzip', 'lzma', 'zstd']:
+        # Get data for this algorithm from multi_obj_df
+        algo_data = multi_obj_df[multi_obj_df['algorithm'] == algo]
+        
+        # Compression ratio: MEDIAN and IQR
+        ratios = algo_data['compression_ratio']
+        median_ratio = ratios.median()
+        q1_ratio = ratios.quantile(0.25)
+        q3_ratio = ratios.quantile(0.75)
+        ratio_str = f"{median_ratio:.2f}× ({q1_ratio:.2f}-{q3_ratio:.2f})"
+        
+        # Speed: MEAN ± STD
+        speeds = algo_data['speed_mbps']
+        mean_speed = speeds.mean()
+        std_speed = speeds.std()
+        speed_str = f"{mean_speed:.1f} ± {std_speed:.1f}"
+        
+        # File count
+        n_files = len(algo_data['filename'].unique())
+        
+        table1_rows.append({
+            'Algorithm': algo,
+            'Compression Ratio': ratio_str,
+            'Speed (MB/s)': speed_str,
+            'N_Files': n_files
+        })
+    
+    table1_final = pd.DataFrame(table1_rows)
+    
+    # Save table
+    table1_final.to_csv(f'{output_dir}/table1_overall_performance_300plus_files_gpt_without_memory_post_table1n4_fix.csv', index=False)
+    print("[+] Saved: table1_overall_performance_gpt_without_memory_post_table1n4_fix.csv")
+    print(table1_final.to_string(index=False))
     
     # TABLE 1: Overall Performance Summary (Unchanged)
     # ASCII FIX: Replaced '📊' with '[TABLE]' and '✅' with '[+]'
-    print("\n[TABLE] Table 1: Overall Performance Summary")
-    
-    table1 = stats_results['descriptive'].reset_index()
-    
-    base_columns = [
-    'Algorithm',
-    'Ratio_Mean',
-    'Ratio_Std',
-    'Ratio_Min',
-    'Ratio_Max',
-    'N_Files',
-    'Speed_Mean',
-    'Speed_Std'
-    ]
-    
-    # Add memory columns only if they exist
-    if table1.shape[1] == 10:
-        base_columns.extend(['Memory_Mean', 'Memory_Std'])
-    
-    
-    table1.columns = base_columns
-    #table1.columns = ['Algorithm', 'Ratio_Mean', 'Ratio_Std', 'Ratio_Min', 'Ratio_Max', 'N_Files', 
-    #                  'Speed_Mean', 'Speed_Std', 'Memory_Mean', 'Memory_Std']
-    
-    table1['Compression Ratio'] = table1.apply(lambda x: f"{x['Ratio_Mean']:.2f} ± {x['Ratio_Std']:.2f}", axis=1)
-    table1['Speed (MB/s)'] = table1.apply(lambda x: f"{x['Speed_Mean']:.1f} ± {x['Speed_Std']:.1f}", axis=1)
-    
-    if 'Memory_Mean' in table1.columns and 'Memory_Std' in table1.columns:
-        table1['Memory (MB)'] = table1.apply(
-            lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1
-        )
-    
-    # table1['Memory (MB)'] = table1.apply(lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1)
-    
-    base_cols = ['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'N_Files']
-    
-    if 'Memory (MB)' in table1.columns:
-        base_cols.insert(3, 'Memory (MB)')
-    
-    table1_final = table1[base_cols]
-    
-    #table1_final = table1[['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'Memory (MB)', 'N_Files']]
-    
-    table1_final.to_csv(f'{output_dir}/table1_overall_performance_300plus_files_gpt_without_memory.csv', index=False)
-    print("[+] Saved: table1_overall_performance_gpt_without_memory.csv")
-    print(table1_final.to_string(index=False))
+    #print("\n[TABLE] Table 1: Overall Performance Summary")
+    #
+    #table1 = stats_results['descriptive'].reset_index()
+    #
+    #base_columns = [
+    #'Algorithm',
+    #'Ratio_Mean',
+    #'Ratio_Std',
+    #'Ratio_Min',
+    #'Ratio_Max',
+    #'N_Files',
+    #'Speed_Mean',
+    #'Speed_Std'
+    #]
+    #
+    ## Add memory columns only if they exist
+    #if table1.shape[1] == 10:
+    #    base_columns.extend(['Memory_Mean', 'Memory_Std'])
+    #
+    #
+    #table1.columns = base_columns
+    ##table1.columns = ['Algorithm', 'Ratio_Mean', 'Ratio_Std', 'Ratio_Min', 'Ratio_Max', 'N_Files', 
+    ##                  'Speed_Mean', 'Speed_Std', 'Memory_Mean', 'Memory_Std']
+    #
+    #table1['Compression Ratio'] = table1.apply(lambda x: f"{x['Ratio_Mean']:.2f} ± {x['Ratio_Std']:.2f}", axis=1)
+    #table1['Speed (MB/s)'] = table1.apply(lambda x: f"{x['Speed_Mean']:.1f} ± {x['Speed_Std']:.1f}", axis=1)
+    #
+    #if 'Memory_Mean' in table1.columns and 'Memory_Std' in table1.columns:
+    #    table1['Memory (MB)'] = table1.apply(
+    #        lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1
+    #    )
+    #
+    ## table1['Memory (MB)'] = table1.apply(lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1)
+    #
+    #base_cols = ['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'N_Files']
+    #
+    #if 'Memory (MB)' in table1.columns:
+    #    base_cols.insert(3, 'Memory (MB)')
+    #
+    #table1_final = table1[base_cols]
+    #
+    ##table1_final = table1[['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'Memory (MB)', 'N_Files']]
+    #
+    #table1_final.to_csv(f'{output_dir}/table1_overall_performance_300plus_files_gpt_without_memory.csv', index=False)
+    #print("[+] Saved: table1_overall_performance_gpt_without_memory.csv")
+    #print(table1_final.to_string(index=False))
     
     # TABLE 2: Statistical Tests (Paired Comparisons) - UPDATED
     # ASCII FIX: Replaced '📊' with '[TABLE]' and '✅' with '[+]'
@@ -633,8 +675,8 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     
     table2_final = table2.head(20).copy() # Limit printout size
     
-    table2_final.to_csv(f'{output_dir}/table2_statistical_tests_300plus_files_gpt_without_memory.csv', index=False)
-    print("[+] Saved: table2_statistical_tests_gpt_without_memory.csv (Includes Adjusted P-values)")
+    table2_final.to_csv(f'{output_dir}/table2_statistical_tests_300plus_files_gpt_without_memory_post_table1n4_fix.csv', index=False)
+    print("[+] Saved: table2_statistical_tests_gpt_without_memory_post_table1n4_fix.csv (Includes Adjusted P-values)")
     print(table2_final.to_string(index=False))
     
     # TABLE 3: ANOVA Summary - UPDATED (Incorporating Assumptions/Non-Parametric)
@@ -667,13 +709,16 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
         })
     
     table3 = pd.DataFrame(table3_data)
-    table3.to_csv(f'{output_dir}/table3_anova_summary_300plus_files_gpt_without_memory.csv', index=False)
-    print("[+] Saved: table3_anova_summary_gpt_without_memory.csv (Includes Levene's and Kruskal's results)")
+    table3.to_csv(f'{output_dir}/table3_anova_summary_300plus_files_gpt_without_memory_post_table1n4_fix.csv', index=False)
+    print("[+] Saved: table3_anova_summary_gpt_without_memory_post_table1n4_fix.csv (Includes Levene's and Kruskal's results)")
     print(table3.to_string(index=False))
     
     # TABLE 4: Corpus-Specific Results (Unchanged, but robust to new data)
     # ASCII FIX: Replaced '📊' with '[TABLE]' and '✅' with '[+]'
     print("\n[TABLE] Table 4: Performance by Corpus")
+
+    # TABLE 4: Corpus-Specific Results - FIXED (Using Median + IQR)
+    # print("\n[TABLE] Table 4: Performance by Corpus")
     
     # Add corpus labels to data
     def get_corpus(filename):
@@ -686,21 +731,62 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     
     multi_obj_df['corpus'] = multi_obj_df['filename'].apply(get_corpus)
     
-    table4 = multi_obj_df.groupby(['corpus', 'algorithm']).agg({
-        'compression_ratio': ['mean', 'std', 'count']
-    }).round(3)
+    # CHANGED: Use median and IQR instead of mean and std
+    table4_data = []
     
-    table4.columns = ['Mean_Ratio', 'Std_Ratio', 'N_Files']
-    table4 = table4.reset_index()
-    table4['Ratio'] = table4.apply(lambda x: f"{x['Mean_Ratio']:.2f} ± {x['Std_Ratio']:.2f}", axis=1)
+    for corpus in ['Canterbury', 'Heterogeneous']:
+        for algo in ['brotli', 'bzip2', 'gzip', 'lzma', 'zstd']:
+            data = multi_obj_df[(multi_obj_df['corpus'] == corpus) & 
+                               (multi_obj_df['algorithm'] == algo)]['compression_ratio']
+            
+            if len(data) > 0:
+                median = data.median()
+                q1 = data.quantile(0.25)
+                q3 = data.quantile(0.75)
+                ratio_str = f"{median:.2f} ({q1:.2f}-{q3:.2f})"
+                
+                table4_data.append({
+                    'corpus': corpus,
+                    'algorithm': algo,
+                    'Ratio': ratio_str
+                })
     
-    table4_pivot = table4.pivot(index='algorithm', columns='corpus', values='Ratio')
+    # Create table
+    table4_df = pd.DataFrame(table4_data)
+    table4_pivot = table4_df.pivot(index='algorithm', columns='corpus', values='Ratio')
     table4_pivot = table4_pivot.reset_index()
     table4_pivot.columns.name = None
     
-    table4_pivot.to_csv(f'{output_dir}/table4_corpus_specific_300plus_files_gpt_without_memory.csv', index=False)
-    print("[+] Saved: table4_corpus_specific_gpt_without_memory.csv")
+    table4_pivot.to_csv(f'{output_dir}/table4_corpus_specific_300plus_files_gpt_without_memory_post_table1n4_fix.csv', index=False)
+    print("[+] Saved: table4_corpus_specific_gpt_without_memory_post_table1n4_fix.csv")
     print(table4_pivot.to_string(index=False))
+    #
+    ## Add corpus labels to data
+    #def get_corpus(filename):
+    #    if any(x in filename for x in ['alice', 'asyoulik', 'cp.html', 'fields', 
+    #                                   'grammar', 'kennedy', 'lcet', 'plrabn', 
+    #                                   'ptt5', 'sum', 'xargs']):
+    #        return 'Canterbury'
+    #    else:
+    #        return 'Heterogeneous'
+    #
+    #multi_obj_df['corpus'] = multi_obj_df['filename'].apply(get_corpus)
+    #
+    #table4 = multi_obj_df.groupby(['corpus', 'algorithm']).agg({
+    #    'compression_ratio': ['mean', 'std', 'count']
+    #}).round(3)
+    #
+    #table4.columns = ['Mean_Ratio', 'Std_Ratio', 'N_Files']
+    #table4 = table4.reset_index()
+    #table4['Ratio'] = table4.apply(lambda x: f"{x['Mean_Ratio']:.2f} ± {x['Std_Ratio']:.2f}", axis=1)
+    #
+    #table4_pivot = table4.pivot(index='algorithm', columns='corpus', values='Ratio')
+    #table4_pivot = table4_pivot.reset_index()
+    #table4_pivot.columns.name = None
+    #
+    #table4_pivot.to_csv(f'{output_dir}/table4_corpus_specific_300plus_files_gpt_without_memory_post_table1_fix.csv', index=False)
+    #print("[+] Saved: table4_corpus_specific_gpt_without_memory_post_table1_fix.csv")
+    #print(table4_pivot.to_string(index=False))
     
     # TABLE 5: Tukey's HSD Post-Hoc Results (New Table for Publication)
     # ASCII FIX: Replaced '📊' with '[TABLE]' and '✅' with '[+]'
@@ -720,8 +806,8 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     if tukey_list:
         table5 = pd.concat(tukey_list, ignore_index=True)
         table5.columns = ['Metric', 'Group 1', 'Group 2', 'Mean Diff', 'p (adj)', 'Significant']
-        table5.to_csv(f'{output_dir}/table5_tukey_hsd_significant_without_memory.csv', index=False)
-        print("[+] Saved: table5_tukey_hsd_significant_without_memory.csv")
+        table5.to_csv(f'{output_dir}/table5_tukey_hsd_significant_without_memory_post_table1n4_fix.csv', index=False)
+        print("[+] Saved: table5_tukey_hsd_significant_without_memory_post_table1n4_fix.csv")
         print(table5.to_string(index=False))
     else:
         # ASCII FIX: Replaced '⚠️' with '[!]'

@@ -1,0 +1,3 @@
+Metric,Levene's p (H0: Homogeneity),ANOVA F(df),ANOVA p,ANOVA eta^2,Kruskal H,Kruskal p,Significant
+compression_ratio,0.0007,"1.263 (4, 1935)",2.8252e-01,0.003,169.240,1.5228e-35,V (Kruskal)
+speed_mbps,0.0000,"25.402 (4, 1935)",1.5434e-20,0.050,193.774,8.1908e-41,V (ANOVA)
