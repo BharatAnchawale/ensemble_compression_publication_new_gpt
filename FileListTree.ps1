@@ -50,4 +50,4 @@ function Generate-DetailedFileList-Filtered-V2 {
 
 # --- How to run the script ---
 # Example for your specific path provided in the error message:
-Generate-DetailedFileList-Filtered-V2 -Path "D:\Visual Studio 2022\ensemble_compression_publication_new"
+Generate-DetailedFileList-Filtered-V2 -Path "D:\Visual Studio 2022\ensemble_compression_publication_new_gpt"
