@@ -61,18 +61,46 @@ class StatisticalAnalyzer:
         
         Args:
             results_df: DataFrame with columns including 'algorithm', 
-                       'compression_ratio', 'speed_mbps', 'memory_mb', 'filename'
+                       'compression_ratio', 'speed_mbps', 'memory_config_mb', 'filename'
         """
 
         # Add corpus labels
         results_df = results_df.copy()
+
+        print("DATAFRAME COLUMNS:", df.columns.tolist())
+
+
+        if 'memory_mb' in df.columns and 'memory_config_mb' not in df.columns:
+           df['memory_config_mb'] = df['memory_mb']
+
         results_df['corpus'] = results_df['filename'].apply(classify_corpus)
         
         self.df_all = results_df
         self.df_real = results_df[results_df['corpus'] != 'artificial'].copy()
         
         self.algorithms = sorted(self.df_real['algorithm'].unique())
-        
+
+        # --------------------------------------------------------
+        # Phase 2.2: File size stratification for speed robustness
+        # --------------------------------------------------------
+        if 'original_size' in self.df_real.columns:
+            # original_size is input size in bytes
+            self.df_real['file_size_bytes'] = self.df_real['original_size']
+        else:
+            raise ValueError(
+                "original_size column not found; required for Phase 2.2 speed analysis"
+            )
+
+        def size_bin(bytes_):
+            if bytes_ < 256 * 1024:
+                return 'Small'
+            elif bytes_ < 1024 * 1024:
+                return 'Medium'
+            else:
+                return 'Large'
+
+        self.df_real['size_bin'] = self.df_real['file_size_bytes'].apply(size_bin)
+
         print(f"Total measurements: {len(self.df_all)}")
         print(f"Real-world measurements used for inference: {len(self.df_real)}")
         print("\nCorpus distribution:")
@@ -81,7 +109,44 @@ class StatisticalAnalyzer:
         print(f"Statistical Analyzer initialized with {len(self.df_real)} measurements")
         print(f"Algorithms: {', '.join(self.algorithms)}")
         print(f"Files: {self.df_real['filename'].nunique()}")
-    
+
+    def speed_confidence_intervals(self, confidence=0.95):
+        from scipy.stats import t
+        results = []
+
+        for algo, group in self.df_real.groupby('algorithm'):
+            speeds = group['speed_mbps'].dropna()
+            n = len(speeds)
+
+            if n < 2:
+                continue
+
+            mean = speeds.mean()
+            std = speeds.std(ddof=1)
+            se = std / (n ** 0.5)
+            t_val = t.ppf((1 + confidence) / 2, df=n - 1)
+
+            ci_low = mean - t_val * se
+            ci_high = mean + t_val * se
+
+            results.append({
+                'Algorithm': algo,
+                'Speed_Mean': mean,
+                'CI_Lower': ci_low,
+                'CI_Upper': ci_high,
+                'N_Files': n
+            })
+
+        return pd.DataFrame(results)
+
+    def speed_by_size_bin(self):
+        return (
+            self.df_real
+            .groupby(['algorithm', 'size_bin'])['speed_mbps']
+            .agg(['mean', 'std', 'count'])
+            .reset_index()
+        )
+
     def paired_t_tests(self, baseline_algo='gzip', test_algos=None):
         """
         Perform paired t-tests comparing each algorithm to baseline.
@@ -333,17 +398,21 @@ class StatisticalAnalyzer:
 
         assert 'artificial' not in self.df_real['corpus'].unique(), \
         "Artificial data detected in statistical inference set!"
-        
+
         results = {}
         
         # 1. Descriptive statistics
         print("\n1. DESCRIPTIVE STATISTICS")
         print("-" * 80)
-        desc_stats = self.df_real.groupby('algorithm').agg({
-            'compression_ratio': ['mean', 'std', 'min', 'max', 'count'],
-            'speed_mbps': ['mean', 'std'],
-            'memory_mb': ['mean', 'std']
-        }).round(3)
+        agg_dict = {
+            'compression_ratio': ['mean', 'std', 'median', 'min', 'max'],
+            'speed_mbps': ['mean', 'std']
+            }
+
+        if 'memory_config_mb' in self.df_real.columns:
+            agg_dict['memory_config_mb'] = ['mean', 'std']
+
+        desc_stats = self.df_real.groupby('algorithm').agg(agg_dict)
         print(desc_stats)
         results['descriptive'] = desc_stats
         
@@ -354,7 +423,9 @@ class StatisticalAnalyzer:
         kruskal_results = {}
         tukey_results = {}
         
-        for metric in ['compression_ratio', 'speed_mbps', 'memory_mb']:
+        for metric in ['compression_ratio', 'speed_mbps']:
+            assert metric != 'memory_mb', \
+                "Memory must not be used in statistical inference"
             anova_result = self.anova_test(metric)
             kruskal_result = self.kruskal_wallis_test(metric)
             
@@ -485,6 +556,12 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
         output_dir: Directory to save tables
     """
     os.makedirs(output_dir, exist_ok=True)
+
+    speed_ci = analyzer.speed_confidence_intervals()
+    speed_by_size = analyzer.speed_by_size_bin()
+
+    speed_ci.to_csv("table5_speed_confidence_intervals.csv", index=False)
+    speed_by_size.to_csv("table6_speed_by_size_bin.csv", index=False)
     
     print("\n" + "="*80)
     print("CREATING PUBLICATION TABLES (Phase 2)")
@@ -493,17 +570,50 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     # TABLE 1: Overall Performance Summary (Unchanged)
     # ASCII FIX: Replaced '📊' with '[TABLE]' and '✅' with '[+]'
     print("\n[TABLE] Table 1: Overall Performance Summary")
+
     table1 = stats_results['descriptive'].reset_index()
-    table1.columns = ['Algorithm', 'Ratio_Mean', 'Ratio_Std', 'Ratio_Min', 'Ratio_Max', 'N_Files', 
-                      'Speed_Mean', 'Speed_Std', 'Memory_Mean', 'Memory_Std']
+
+    base_columns = [
+    'Algorithm',
+    'Ratio_Mean',
+    'Ratio_Std',
+    'Ratio_Min',
+    'Ratio_Max',
+    'N_Files',
+    'Speed_Mean',
+    'Speed_Std'
+    ]
+
+    # Add memory columns only if they exist
+    if table1.shape[1] == 10:
+        base_columns.extend(['Memory_Mean', 'Memory_Std'])
+
+    
+    table1.columns = base_columns
+    #table1.columns = ['Algorithm', 'Ratio_Mean', 'Ratio_Std', 'Ratio_Min', 'Ratio_Max', 'N_Files', 
+    #                  'Speed_Mean', 'Speed_Std', 'Memory_Mean', 'Memory_Std']
     
     table1['Compression Ratio'] = table1.apply(lambda x: f"{x['Ratio_Mean']:.2f} ± {x['Ratio_Std']:.2f}", axis=1)
     table1['Speed (MB/s)'] = table1.apply(lambda x: f"{x['Speed_Mean']:.1f} ± {x['Speed_Std']:.1f}", axis=1)
-    table1['Memory (MB)'] = table1.apply(lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1)
+
+    if 'Memory_Mean' in table1.columns and 'Memory_Std' in table1.columns:
+        table1['Memory (MB)'] = table1.apply(
+            lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1
+        )
     
-    table1_final = table1[['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'Memory (MB)', 'N_Files']]
-    table1_final.to_csv(f'{output_dir}/table1_overall_performance_300plus_files_gpt.csv', index=False)
-    print("[+] Saved: table1_overall_performance_gpt.csv")
+    # table1['Memory (MB)'] = table1.apply(lambda x: f"{x['Memory_Mean']:.2f} ± {x['Memory_Std']:.2f}", axis=1)
+    
+    base_cols = ['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'N_Files']
+
+    if 'Memory (MB)' in table1.columns:
+        base_cols.insert(3, 'Memory (MB)')
+
+    table1_final = table1[base_cols]
+    
+    #table1_final = table1[['Algorithm', 'Compression Ratio', 'Speed (MB/s)', 'Memory (MB)', 'N_Files']]
+    
+    table1_final.to_csv(f'{output_dir}/table1_overall_performance_300plus_files_gpt_without_memory.csv', index=False)
+    print("[+] Saved: table1_overall_performance_gpt_without_memory.csv")
     print(table1_final.to_string(index=False))
     
     # TABLE 2: Statistical Tests (Paired Comparisons) - UPDATED
@@ -523,8 +633,8 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     
     table2_final = table2.head(20).copy() # Limit printout size
     
-    table2_final.to_csv(f'{output_dir}/table2_statistical_tests_300plus_files_gpt.csv', index=False)
-    print("[+] Saved: table2_statistical_tests_gpt.csv (Includes Adjusted P-values)")
+    table2_final.to_csv(f'{output_dir}/table2_statistical_tests_300plus_files_gpt_without_memory.csv', index=False)
+    print("[+] Saved: table2_statistical_tests_gpt_without_memory.csv (Includes Adjusted P-values)")
     print(table2_final.to_string(index=False))
     
     # TABLE 3: ANOVA Summary - UPDATED (Incorporating Assumptions/Non-Parametric)
@@ -532,7 +642,9 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     print("\n[TABLE] Table 3: ANOVA and Non-Parametric Summary")
     table3_data = []
     
-    for metric in ['compression_ratio', 'speed_mbps', 'memory_mb']:
+    for metric in ['compression_ratio', 'speed_mbps']:
+        assert metric != 'memory_mb', \
+        "Memory must not be used in statistical inference"
         anova_result = stats_results['anova'][metric]
         kruskal_result = stats_results['kruskal'][metric]
         
@@ -555,8 +667,8 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
         })
     
     table3 = pd.DataFrame(table3_data)
-    table3.to_csv(f'{output_dir}/table3_anova_summary_300plus_files_gpt.csv', index=False)
-    print("[+] Saved: table3_anova_summary_gpt.csv (Includes Levene's and Kruskal's results)")
+    table3.to_csv(f'{output_dir}/table3_anova_summary_300plus_files_gpt_without_memory.csv', index=False)
+    print("[+] Saved: table3_anova_summary_gpt_without_memory.csv (Includes Levene's and Kruskal's results)")
     print(table3.to_string(index=False))
     
     # TABLE 4: Corpus-Specific Results (Unchanged, but robust to new data)
@@ -586,8 +698,8 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     table4_pivot = table4_pivot.reset_index()
     table4_pivot.columns.name = None
     
-    table4_pivot.to_csv(f'{output_dir}/table4_corpus_specific_300plus_files_gpt.csv', index=False)
-    print("[+] Saved: table4_corpus_specific_gpt.csv")
+    table4_pivot.to_csv(f'{output_dir}/table4_corpus_specific_300plus_files_gpt_without_memory.csv', index=False)
+    print("[+] Saved: table4_corpus_specific_gpt_without_memory.csv")
     print(table4_pivot.to_string(index=False))
     
     # TABLE 5: Tukey's HSD Post-Hoc Results (New Table for Publication)
@@ -608,8 +720,8 @@ def create_publication_tables(stats_results, multi_obj_df, output_dir='results/t
     if tukey_list:
         table5 = pd.concat(tukey_list, ignore_index=True)
         table5.columns = ['Metric', 'Group 1', 'Group 2', 'Mean Diff', 'p (adj)', 'Significant']
-        table5.to_csv(f'{output_dir}/table5_tukey_hsd_significant.csv', index=False)
-        print("[+] Saved: table5_tukey_hsd_significant.csv")
+        table5.to_csv(f'{output_dir}/table5_tukey_hsd_significant_without_memory.csv', index=False)
+        print("[+] Saved: table5_tukey_hsd_significant_without_memory.csv")
         print(table5.to_string(index=False))
     else:
         # ASCII FIX: Replaced '⚠️' with '[!]'

@@ -1,0 +1,353 @@
+﻿# 36-Hour Hybrid Action Plan to Make the Paper Publishable in a Respected Data Compression Journal
+
+## Purpose of This Document
+
+This document presents a **hybrid, reviewer-resilient action plan** that combines:
+
+* **Deep statistical rigor** (assumption checks, non-parametric tests, post-hoc analysis), and
+* **Empirical correctness and reviewer psychology** (corpus separation, claim calibration, measurement realism).
+
+The goal is to transform the paper into a **statistically defensible, empirically sound, and submission-ready manuscript** suitable for at least one respected journal in data compression or applied systems research.
+
+This plan intentionally avoids over-engineering while ensuring no critical reviewer objections remain.
+
+---
+
+## Target Outcome (After ~36 Hours)
+
+By executing this hybrid plan, the paper will:
+
+* Be **empirically correct and statistically robust**
+* Avoid common reviewer rejection triggers (artificial data contamination, unrealistic memory claims, overclaiming)
+* Present **conservative, evidence-aligned conclusions**
+* Meet IEEE-style expectations for structure, tone, and rigor
+* Be suitable for submission to venues such as:
+
+  * IEEE Access (primary recommendation)
+  * Journal of Systems Architecture
+  * Journal of Big Data
+  * Software: Practice and Experience
+  * Data Compression Conference (short/poster paper)
+
+---
+
+## Guiding Principles (Hybrid)
+
+1. **Correctness over novelty** – This is an empirical systems paper
+2. **Statistical rigor, not statistical excess** – Use tests reviewers expect
+3. **Corpus-aware analysis** – Artificial and real data must never be mixed
+4. **Conservative claims** – Evidence first, interpretation second
+5. **Transparency** – Explicit limitations and reproducibility
+
+---
+
+## Phase 0 — Setup and Guardrails (≈ 1 hour)
+
+### Objectives
+
+* Prevent accidental regressions
+* Preserve original results
+* Enable reproducibility and traceability
+
+### Tasks
+
+* Create a new working branch or folder (e.g., `empirical_fix_branch/`)
+* Freeze original `results/` directory
+* Record environment details:
+
+  * Python version
+  * OS
+  * CPU model
+  * CPU governor set to `performance`
+* Ensure no background jobs interfere with benchmarking
+
+---
+
+## Phase 1 — Corpus Separation & Statistical Foundations (≈ 8–10 hours) **[CRITICAL]**
+
+This phase eliminates the **single largest empirical flaw**: artificial data contaminating global statistics.
+
+---
+
+### 1.1 Explicit Corpus Classification (≈ 2 hours)
+
+**Actions**:
+
+* Programmatically tag each file as one of:
+
+  * Standard corpus (Calgary, Canterbury)
+  * Real-world corpus (heterogeneous, large, misc)
+  * Artificial / synthetic corpus
+* Store corpus labels alongside metrics
+
+**Rule**:
+
+> Artificial corpus data must never be included in primary statistical inference.
+
+**Implementation Location**:
+
+* `src/analysis/statistical_analysis_15_DEC_2025_fixed.py`
+
+---
+
+### 1.2 Primary Statistics on Real-World Data Only (≈ 2 hours)
+
+**Actions**:
+
+* Recompute all global statistics **excluding artificial corpus**
+* Retain artificial corpus results only as stress-test illustrations
+
+**Output**:
+
+* `compression_stats_real_only.csv`
+
+---
+
+### 1.3 Robust Descriptive Statistics (≈ 2 hours)
+
+**Rationale**: Compression ratios are heavy-tailed.
+
+**Actions**:
+
+* Report median compression ratio per algorithm
+* Report interquartile range (Q1–Q3)
+* Retain mean ± std only as secondary descriptors
+
+**Outputs**:
+
+* Updated tables (median + IQR)
+* Boxplots for real-world corpora only
+
+---
+
+### 1.4 Assumption Checks & Non-Parametric Tests (≈ 2–3 hours)
+
+**Actions**:
+
+* Perform ANOVA with:
+
+  * Levene’s test for homogeneity of variances (reported, not emphasized)
+* Perform Kruskal–Wallis test as a non-parametric alternative
+* Use Wilcoxon signed-rank tests for pairwise non-parametric comparison
+* Report effect sizes (η² or Cliff’s delta)
+
+**Paper Language**:
+
+> “Both parametric and non-parametric analyses lead to consistent conclusions.”
+
+---
+
+### 1.5 Corpus-Wise Statistical Analysis (≈ 2–3 hours)
+
+**Actions**:
+
+* Perform separate analyses for:
+
+  * Calgary corpus
+  * Canterbury corpus
+  * Real-world heterogeneous corpus
+
+**Outputs**:
+
+* One summary table per corpus
+* One concise interpretive paragraph per corpus
+
+---
+
+## Phase 2 — Measurement Realism: Memory and Speed (≈ 6–7 hours)
+
+---
+
+### 2.1 Memory Usage: Risk Elimination Strategy (≈ 2 hours)
+
+**Decision**:
+
+* Memory usage will **not** be used for statistical ranking.
+
+**Actions**:
+
+* Remove memory from ANOVA / non-parametric tests
+* Retain only:
+
+  * Configured dictionary size
+  * Theoretical memory requirements from documentation
+
+**Paper Statement**:
+
+> “Measured RSS values are unreliable for small files and are therefore excluded from statistical inference.”
+
+---
+
+### 2.2 Compression Speed Robustness (≈ 3–4 hours)
+
+**Actions**:
+
+* Add 95% confidence intervals for compression speed
+* Stratify analysis by file size:
+
+  * <256 KB
+  * 256 KB–1 MB
+  * > 1 MB
+
+**Outputs**:
+
+* Stratified speed table
+* One speed figure suitable for IEEE formatting
+
+---
+
+### 2.3 Explicit Experimental Scope Note (≈ 1 hour)
+
+Add a boxed note:
+
+> “All experiments are single-threaded; multi-threaded variants may alter absolute throughput but not relative ordering.”
+
+---
+
+## Phase 3 — Pareto Analysis (Reviewer-Safe Version) (≈ 3–4 hours)
+
+---
+
+### 3.1 Per-File Pareto Dominance Frequency (≈ 2 hours)
+
+**Actions**:
+
+* Compute Pareto front per file
+* Count frequency of Pareto membership per algorithm
+
+**Output**:
+
+* Table: Percentage of files where each algorithm is Pareto-optimal
+
+---
+
+### 3.2 Conservative Pareto Interpretation (≈ 1–2 hours)
+
+**Replace**:
+
+> “Most algorithms are Pareto-optimal”
+
+**With**:
+
+> “Algorithms occupy distinct trade-off regions; no single algorithm dominates across objectives.”
+
+---
+
+## Phase 4 — Decompression Neutralization (≈ 2 hours)
+
+---
+
+### 4.1 Decompression Characteristics Subsection (≈ 1 hour)
+
+Include:
+
+* Known properties from prior work:
+
+  * Brotli: fast decompression
+  * LZMA: slower decompression
+* Appropriate citations
+
+---
+
+### 4.2 Explicit Scope Clarification (≈ 1 hour)
+
+Add statement:
+
+> “This study focuses on compression-time trade-offs; decompression performance is discussed qualitatively.”
+
+---
+
+## Phase 5 — Writing, Tone, and IEEE Compliance (≈ 6–7 hours)
+
+---
+
+### 5.1 Abstract and Contributions Rewrite (≈ 2 hours)
+
+**Goals**:
+
+* Remove overclaims
+* Emphasize empirical rigor and scope
+* Use conservative, evidence-aligned language
+
+---
+
+### 5.2 Discussion Tightening (≈ 2 hours)
+
+**Actions**:
+
+* Remove repetition
+* Eliminate speculative language
+* Reduce discussion length by ~25%
+
+---
+
+### 5.3 IEEE Formatting & Presentation (≈ 2–3 hours)
+
+Fix:
+
+* Abstract formatting
+* Table captions above tables
+* Figure numbering consistency
+* Equation definitions and notation
+* Overall layout and spacing
+
+---
+
+## Phase 6 — Final Submission Readiness (≈ 3–4 hours)
+
+---
+
+### 6.1 Threats to Validity Section (≈ 1 hour)
+
+Include:
+
+* Corpus bias
+* File-size distribution effects
+* Single-thread execution
+* Measurement limitations
+
+---
+
+### 6.2 Reproducibility Checklist (≈ 1 hour)
+
+Add a checklist detailing:
+
+* Hardware configuration
+* OS and software versions
+* Command-line invocations
+* Random seeds (if any)
+* Git commit hash placeholder
+
+---
+
+### 6.3 Journal Targeting & Cover Letter (≈ 1–2 hours)
+
+**Primary target**: IEEE Access
+
+Actions:
+
+* Align abstract and contribution framing with journal scope
+* Draft a concise, honest cover letter emphasizing empirical contribution
+
+---
+
+## Final Go / No-Go Checklist
+
+Submit **only if all items below are satisfied**:
+
+* Artificial corpus excluded from primary statistics
+* Median + IQR reported for compression ratios
+* Assumption checks and non-parametric tests included
+* Memory usage removed from statistical inference
+* Speed results include confidence intervals
+* Pareto claims conservatively framed
+* Claims fully aligned with evidence
+* IEEE formatting issues resolved
+
+---
+
+## Final Recommendation
+
+This hybrid plan balances **statistical rigor** with **empirical realism and reviewer expectations**. Completing these steps within ~36 hours will make the paper a **credible, defensible, and competitive submission** for at least one respected data compression or applied systems journal.
+
+This document should be treated as the authoritative execution checklist for final paper preparation.

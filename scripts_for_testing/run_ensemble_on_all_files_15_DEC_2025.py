@@ -1,5 +1,5 @@
 ﻿"""
-Run Ensemble Compression on ALL 57 Files
+Run Ensemble Compression on ALL 300plus Files
 Compare with baseline to see if >5% improvement
 """
 
@@ -20,7 +20,7 @@ print("="*80)
 # Get ALL files
 all_files = []
 corpora = ['artificial', 'calgary', 'canterbury', 'heterogeneous', 
-           'heterogeneous_additional', 'large', 'miscellaneous']
+           'heterogeneous_additional', 'large', 'miscellaneous', 'required_corpus']
 
 for corpus in corpora:
     corpus_path = Path(f"data/academic_corpora/{corpus}")
@@ -75,7 +75,7 @@ for i, filepath in enumerate(all_files, 1):
 
 # Save results
 df = pd.DataFrame(results)
-df.to_csv('results/experiments/ensemble_all_57files_15_DEC_2025.csv', index=False)
+df.to_csv('results/experiments/ensemble_all_300plusfiles_15_DEC_2025.csv', index=False)
 
 print("\n" + "="*80)
 print("SUMMARY")
@@ -96,4 +96,4 @@ else:
     print(f"\n⚠️ Average improvement {df['improvement_pct'].mean():.2f}% < 5%")
     print("   → Ensemble remains minor finding, multi-objective is main story")
 
-print(f"\n✅ Results saved to: results/experiments/ensemble_all_57files_15_DEC_2025.csv")
+print(f"\n✅ Results saved to: results/experiments/ensemble_all_300plusfiles_15_DEC_2025.csv")
