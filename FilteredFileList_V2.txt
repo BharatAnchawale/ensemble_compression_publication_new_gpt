@@ -3,12 +3,12 @@
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\.git
 Created  : 2025-12-16 12:50:08
-Modified : 2025-12-16 12:50:15
+Modified : 2025-12-17 00:06:38
 
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\.vs
 Created  : 2025-12-16 12:50:25
-Modified : 2025-12-16 12:52:43
+Modified : 2025-12-17 00:06:38
 
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\data
@@ -39,6 +39,11 @@ Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\FileListTree.ps1
 Created  : 2025-12-16 12:50:12
 Modified : 2025-12-16 12:53:56
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\FilteredFileList_V2.txt
+Created  : 2025-12-16 12:54:21
+Modified : 2025-12-16 12:54:22
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\suggestion.txt
@@ -2058,12 +2063,12 @@ Modified : 2025-12-16 12:50:14
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures
 Created  : 2025-12-16 12:50:14
-Modified : 2025-12-16 12:50:15
+Modified : 2025-12-17 00:06:38
 
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables
 Created  : 2025-12-16 12:50:15
-Modified : 2025-12-16 12:50:48
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\experiments\baseline_results_12_DEC_2025_12_00_00.csv
@@ -2136,6 +2141,11 @@ Created  : 2025-12-16 12:50:14
 Modified : 2025-12-16 12:50:14
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure1_compression_ratio_boxplots_300plus_files_without_memory_post_table1_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure1_compression_ratio_boxplots_57files.png
 Created  : 2025-12-16 12:50:14
 Modified : 2025-12-16 12:50:14
@@ -2144,6 +2154,11 @@ Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure3_corpus_analysis_300plus_files.png
 Created  : 2025-12-16 12:50:14
 Modified : 2025-12-16 12:50:14
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure3_corpus_analysis_300plus_files_without_memory_post_table1_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure3_corpus_analysis_57files.png
@@ -2156,6 +2171,11 @@ Created  : 2025-12-16 12:50:14
 Modified : 2025-12-16 12:50:14
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure4_preference_tradeoffs_300plus_files_without_memory_post_table1_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\figure4_preference_tradeoffs_57files.png
 Created  : 2025-12-16 12:50:14
 Modified : 2025-12-16 12:50:14
@@ -2164,6 +2184,11 @@ Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\multi_objective_analysis_14_DEC_2025_300plus_files.png
 Created  : 2025-12-16 12:50:14
 Modified : 2025-12-16 12:50:14
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\multi_objective_analysis_14_DEC_2025_300plus_files_without_memory_post_tabel1n4_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\multi_objective_analysis_14_DEC_2025_57files.png
@@ -2176,6 +2201,11 @@ Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_3d_space_14_DEC_2025_300plus_files_without_memory_post_tabel1n4_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_3d_space_14_DEC_2025_57files.png
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
@@ -2186,6 +2216,11 @@ Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_ratio_memory_14_DEC_2025_300plus_files_without_memory_post_tabel1n4_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_ratio_memory_14_DEC_2025_57files.png
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
@@ -2194,6 +2229,16 @@ Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_ratio_speed_14_DEC_2025_300plus_files.png
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_ratio_speed_14_DEC_2025_300plus_files_without_memory_post_tabel1n4_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_ratio_speed_14_DEC_2025_300plus_files_without_memory_post_table1_fix.png
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\figures\pareto_ratio_speed_14_DEC_2025_57files.png
@@ -2216,6 +2261,16 @@ Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table1_overall_performance_300plus_files_gpt_without_memory_post_table1n4_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table1_overall_performance_300plus_files_gpt_without_memory_post_table1_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table1_overall_performance_57files.csv
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
@@ -2234,6 +2289,16 @@ Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table2_statistical_tests_300plus_files_gpt_without_memory.csv
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table2_statistical_tests_300plus_files_gpt_without_memory_post_table1n4_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table2_statistical_tests_300plus_files_gpt_without_memory_post_table1_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table2_statistical_tests_57files.csv
@@ -2261,6 +2326,16 @@ Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table3_anova_summary_300plus_files_gpt_without_memory_post_table1n4_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table3_anova_summary_300plus_files_gpt_without_memory_post_table1_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table4_corpus_specific_300plus_files.csv
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
@@ -2274,6 +2349,16 @@ Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table4_corpus_specific_300plus_files_gpt_without_memory.csv
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table4_corpus_specific_300plus_files_gpt_without_memory_post_table1n4_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table4_corpus_specific_300plus_files_gpt_without_memory_post_table1_fix.csv
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\results\tables\table4_corpus_specific_57files.csv
@@ -2333,7 +2418,7 @@ Modified : 2025-12-16 12:50:15
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\analysis
 Created  : 2025-12-16 12:50:15
-Modified : 2025-12-16 12:50:15
+Modified : 2025-12-17 00:06:38
 
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\compression
@@ -2343,7 +2428,7 @@ Modified : 2025-12-16 12:50:15
 Type     : Folder
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\visualization
 Created  : 2025-12-16 12:50:15
-Modified : 2025-12-16 12:50:15
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\__init__.py
@@ -2367,8 +2452,13 @@ Modified : 2025-12-16 12:50:15
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\analysis\statistical_analysis_15_DEC_2025_fixed_without_memory.py
-Created  : 2025-12-16 12:50:15
-Modified : 2025-12-16 12:50:15
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\analysis\statistical_analysis_15_DEC_2025_fixed_without_memory_post_table1_fix.py
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\analysis\__init__.py
@@ -2436,9 +2526,19 @@ Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
 
 Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\visualization\create_paper_figures_15_DEC_2025_fixed_without_memory_post_tabel1n4_fix.py
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
+
+Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\visualization\visualize_multi_objective_14_DEC_2025_fixed.py
 Created  : 2025-12-16 12:50:15
 Modified : 2025-12-16 12:50:15
+
+Type     : File
+FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\visualization\visualize_multi_objective_14_DEC_2025_fixed_without_memory_post_tabel1n4_fix.py
+Created  : 2025-12-17 00:06:38
+Modified : 2025-12-17 00:06:38
 
 Type     : File
 FullPath : D:\Visual Studio 2022\ensemble_compression_publication_new_gpt\src\visualization\__init__.py
